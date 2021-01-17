@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IzXs1qoCK3QJI/0bHkbcB0fKTFt/i/W3fzPAvA3lbOVES/kNDiHqYLL3ixpFgZ0V+yB8is7NUFWNs2OToyz2PA==",
+  "dgSpecHash": "iXLz2ihMU2I95qJNnkcKlupynHrEGbT+Q0AAGDmab1CoB+hS4HFx1paZsggZ/klUWuetHBc6kwtY4MjTm3AD6w==",
   "success": true,
-  "projectFilePath": "C:\\projetos\\exercicios\\cloud\\servicebus\\ServiceBus.Producer\\ServiceBus.Producer.csproj",
+  "projectFilePath": "C:\\projetos\\exercicios\\cloud\\servicebus\\src\\ServiceBus.Producer\\ServiceBus.Producer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bruno.prado.SM\\.nuget\\packages\\microsoft.azure.amqp\\2.4.9\\microsoft.azure.amqp.2.4.9.nupkg.sha512",
     "C:\\Users\\bruno.prado.SM\\.nuget\\packages\\microsoft.azure.servicebus\\5.1.1\\microsoft.azure.servicebus.5.1.1.nupkg.sha512",

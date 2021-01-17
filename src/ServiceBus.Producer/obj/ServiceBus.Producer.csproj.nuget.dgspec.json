@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projetos\\exercicios\\cloud\\servicebus\\ServiceBus.Producer\\ServiceBus.Producer.csproj": {}
+    "C:\\projetos\\exercicios\\cloud\\servicebus\\src\\ServiceBus.Producer\\ServiceBus.Producer.csproj": {}
   },
   "projects": {
-    "C:\\projetos\\exercicios\\cloud\\servicebus\\ServiceBus.Producer\\ServiceBus.Producer.csproj": {
+    "C:\\projetos\\exercicios\\cloud\\servicebus\\src\\ServiceBus.Producer\\ServiceBus.Producer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projetos\\exercicios\\cloud\\servicebus\\ServiceBus.Producer\\ServiceBus.Producer.csproj",
+        "projectUniqueName": "C:\\projetos\\exercicios\\cloud\\servicebus\\src\\ServiceBus.Producer\\ServiceBus.Producer.csproj",
         "projectName": "ServiceBus.Producer",
-        "projectPath": "C:\\projetos\\exercicios\\cloud\\servicebus\\ServiceBus.Producer\\ServiceBus.Producer.csproj",
+        "projectPath": "C:\\projetos\\exercicios\\cloud\\servicebus\\src\\ServiceBus.Producer\\ServiceBus.Producer.csproj",
         "packagesPath": "C:\\Users\\bruno.prado.SM\\.nuget\\packages\\",
-        "outputPath": "C:\\projetos\\exercicios\\cloud\\servicebus\\ServiceBus.Producer\\obj\\",
+        "outputPath": "C:\\projetos\\exercicios\\cloud\\servicebus\\src\\ServiceBus.Producer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bruno.prado.SM\\AppData\\Roaming\\NuGet\\NuGet.Config",
