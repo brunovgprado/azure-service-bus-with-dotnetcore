@@ -1,2 +1,2 @@
 # Azure service bus with dotnet core project
-Examples using queue from azure service bus in dotnet core projects
+Pushing and consuming messages from Azure Service Bus with dotnet core applications
