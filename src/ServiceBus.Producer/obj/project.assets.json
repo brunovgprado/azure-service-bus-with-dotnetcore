@@ -1803,6 +1803,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "ServiceBus.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/ServiceBus.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ServiceBus.Contract.dll": {}
+        }
       }
     }
   },
@@ -6399,11 +6409,17 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "ServiceBus.Contract/1.0.0": {
+      "type": "project",
+      "path": "../ServiceBus.Contract/ServiceBus.Contract.csproj",
+      "msbuildProject": "../ServiceBus.Contract/ServiceBus.Contract.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Microsoft.Azure.ServiceBus >= 5.1.1"
+      "Microsoft.Azure.ServiceBus >= 5.1.1",
+      "ServiceBus.Contract >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6433,7 +6449,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\projetos\\exercicios\\cloud\\servicebus\\src\\ServiceBus.Contract\\ServiceBus.Contract.csproj": {
+              "projectPath": "C:\\projetos\\exercicios\\cloud\\servicebus\\src\\ServiceBus.Contract\\ServiceBus.Contract.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

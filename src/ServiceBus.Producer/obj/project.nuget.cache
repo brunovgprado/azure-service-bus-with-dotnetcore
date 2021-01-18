@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iXLz2ihMU2I95qJNnkcKlupynHrEGbT+Q0AAGDmab1CoB+hS4HFx1paZsggZ/klUWuetHBc6kwtY4MjTm3AD6w==",
+  "dgSpecHash": "BCGalXYbFSh/huV9C1kgGXb9NfEi20Uel5gMVRRItzBDg6tf6/DES7c3Cd16A5/MX2J+gppojTKm0jmL1Grsjw==",
   "success": true,
   "projectFilePath": "C:\\projetos\\exercicios\\cloud\\servicebus\\src\\ServiceBus.Producer\\ServiceBus.Producer.csproj",
   "expectedPackageFiles": [

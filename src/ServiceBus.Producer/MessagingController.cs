@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ServiceBus.Contract;
+using ServiceBus.Producer.Models.Request;
 using ServiceBus.Producer.Services;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace ServiceBus.Producer
@@ -28,10 +28,18 @@ namespace ServiceBus.Producer
             return Ok();
         }
 
-        [HttpPost("test")]
-        public async Task<IActionResult> Test()
+        [HttpPost("product")]
+        public async Task<IActionResult> CreateProduct([FromBody] CreateProductRequest request)
         {
-            return Ok("teste ok");
+            var productCreated = new ProductCreated
+            {
+                Id = Guid.NewGuid(),
+                Name = request.Name,
+                price = request.price
+            };
+
+            await _messagePublisher.Publish(productCreated);
+            return Ok();
         }
     }
 }
